@@ -1,0 +1,8 @@
+<div >
+<mat-grid-list cols="3">
+    <mat-grid-tile *ngFor="let item of cards">     
+        <card [carder]="item"></card>
+        <mat-divider></mat-divider>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
